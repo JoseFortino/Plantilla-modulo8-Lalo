@@ -20,8 +20,8 @@ website:
       - section: "3er reporte"
         contents:
           - mis_reportes/reporte-03.qmd
-       - section: "4to reporte"
-        contents:
+      - section: "4to reporte"
+         contents:
           - mis_reportes/reporte-04.qmd
 
 format:
