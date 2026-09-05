@@ -2,30 +2,30 @@ project:
   type: website
 
 website:
-  title: "Reportes Test"
+  title: "El sitio de reportes de Lalo"
   navbar:
     left:
-      - text: "Sobre este sitio"
-        href: index.qmd # siempre debe tener este archivo
+      - text: "Sobre este fabuloso sitio"
+        href: index.qmd # Siempre tiene que tener un archivo index.qmd
   sidebar:
     style: docked
     contents:
       - index.qmd
-      - section: "1er reporte"
+      - section: "1er reporte chafa"
         contents:
           - mis_reportes/reporte-01.qmd
-      - section: "2do reporte"
+      - section: "2do reporte menos chafa"
         contents:
           - mis_reportes/reporte-02.qmd
-      - section: "3er reporte"
+      - section: "3er reporte, por fin lo logré"
         contents:
           - mis_reportes/reporte-03.qmd
-      - section: "4to reporte"
-         contents:
+      - section: "Reporte con dos lenguajes"
+        contents:
           - mis_reportes/reporte-04.qmd
 
 format:
   html:
-    theme: superhero
+    theme: superhero # Este el nuevo tema que me gustó
     toc: true
     lang: es
