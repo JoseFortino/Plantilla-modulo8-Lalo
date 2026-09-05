@@ -23,6 +23,6 @@ website:
 
 format:
   html:
-    theme: minty
+    theme: superhero
     toc: true
     lang: es
